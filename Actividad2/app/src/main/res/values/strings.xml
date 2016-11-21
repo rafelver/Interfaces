@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Actividad2</string>
+    <string name="fondo_rojo">FONDO ROJO</string>
+    <string name="fondo_blanco">FONDO BLANCO</string>
+    <string name="letras_rojas">LETRAS ROJAS</string>
+    <string name="letras_negras">LETRAS NEGRAS</string>
+    <string name="Texto1">MOSTRAR</string>
+    <string name="Texto2">MOSTRAR ESTE ES UN MENSAJE OCULTO</string>
+
+</resources>

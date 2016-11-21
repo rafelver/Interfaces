@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rafael.actividad2.MainActivity"
+    android:orientation="vertical">
+
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggleButton"
+        android:textOff="@string/fondo_rojo"
+        android:textOn="@string/fondo_blanco"
+        android:checked="false"
+        android:layout_margin="10dp" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggleButton2"
+        android:textOff="@string/letras_rojas"
+        android:textOn="@string/letras_negras"
+        android:checked="false"
+        android:layout_margin="10dp" />
+
+    <CheckBox
+        android:text="@string/Texto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        android:layout_margin="30dp"
+        android:checked="false" />
+
+    <TextView
+        android:text="HAZ Aqui un click Largo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_margin="20dp" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:numStars="5"
+        android:layout_margin="10dp"
+        android:stepSize="1.0"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+
+        android:textSize="24sp"
+        android:layout_gravity="center_vertical" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#ED1C24"
+        android:id="@+id/view" />
+
+</LinearLayout>

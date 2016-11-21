@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Actividad4</string>
+    <string name="opcion1">Primer Item</string>
+    <string name="opcion2">Segundo Item</string>
+    <string name="opcion3">Tercer Item</string>
+    <string name="opcion4">Cuarto Item</string>
+    <string name="menu2">Segundo Menu</string>
+    <string name="opcion5">Quinto Item</string>
+    <string name="opcion6">Sexto Item</string>
+    <string name="opcion7">Septimo Item</string>
+</resources>
